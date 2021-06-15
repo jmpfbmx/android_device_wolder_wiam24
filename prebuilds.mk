@@ -2,6 +2,7 @@
 PRODUCT_PACKAGES += \
 	busybox
 
+ifeq ($(BUILD_WITH_GAPPS),true)
 # GAPPS apps
 GAPPS_VARIANT := pico
 DONT_DEXPREOPT_PREBUILTS := true
@@ -35,3 +36,4 @@ GAPPS_EXCLUDED_PACKAGES := \
     Videos
 
 $(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
+endif

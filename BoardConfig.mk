@@ -30,3 +30,6 @@ BOARD_KERNEL_CMDLINE = bootopt=64S3,32N2,64N2
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/wolder/wiam24/bluetooth
+
+# GAPPS Build
+BUILD_WITH_GAPPS := false
