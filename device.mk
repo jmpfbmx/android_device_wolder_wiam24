@@ -1,5 +1,5 @@
 # ProjectConfig
-include device/DOOGEE/$(MTK_TARGET_PROJECT)/ProjectConfig.mk
+include device/wolder/$(MTK_TARGET_PROJECT)/ProjectConfig.mk
 
 # Common mt6580 device
 $(call inherit-product, device/mediatek/mt6580/device.mk)
