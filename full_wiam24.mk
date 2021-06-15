@@ -22,13 +22,13 @@ PRODUCT_LOCALES := en_US es_ES pt_BR ru_RU fr_FR de_DE tr_TR vi_VN ms_MY in_ID t
 PRODUCT_MANUFACTURER := Wolder
 PRODUCT_NAME := full_wiam24
 PRODUCT_DEVICE := wiam24
-PRODUCT_MODEL := Wolder Wiam 24
+PRODUCT_MODEL := wiam24
 PRODUCT_POLICY := android.policy_phone
 PRODUCT_BRAND := Wolder
 
 BUILD_FINGERPRINT := Wolder/full_aeon6580_we_m/aeon6580_we_m:6.0/MRA58K/1466685788:user/dev-keys
 PRIVATE_BUILD_DESC := "full_aeon6580_we_m-user 6.0 MRA58K 1466685788 dev-keys"
-TARGET_OTA_ASSERT_DEVICE := Wiam24
+TARGET_OTA_ASSERT_DEVICE := wiam24
 PRODUCT_DEFAULT_LOCALE := en_US
 
 KERNEL_DEFCONFIG := wiam24_defconfig
