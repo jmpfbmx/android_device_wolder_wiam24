@@ -119,7 +119,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
      pm.dexopt.shared=quicken
 
 PRODUCT_PROPERTY_OVERRIDES += \
-     ro.mtk_f2fs_enable=1 \
      ro.lmk.critical_upgrade=true \
      ro.lmk.upgrade_pressure=40 \
      ro.lmk.kill_heaviest_task=false
