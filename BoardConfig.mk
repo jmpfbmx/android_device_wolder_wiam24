@@ -14,11 +14,8 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 include device/wolder/$(MTK_TARGET_PROJECT)/ProjectConfig.mk
 
 # GO-ify
-BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
-ifeq ($(HOST_OS),linux)
-     TARGET_USERIMAGES_USE_F2FS := true
-endif
-PRODUCT_PACKAGES += fsck.f2fs mkfs.f2fs
+TARGET_USERIMAGES_USE_EXT4 := true
+BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 MALLOC_SVELTE := true
 
 MTK_INTERNAL_CDEFS := $(foreach t,$(AUTO_ADD_GLOBAL_DEFINE_BY_NAME),$(if $(filter-out no NO none NONE false FALSE,$($(t))),-D$(t)))
