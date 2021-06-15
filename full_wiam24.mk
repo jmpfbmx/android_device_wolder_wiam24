@@ -26,8 +26,8 @@ PRODUCT_MODEL := Wolder Wiam 24
 PRODUCT_POLICY := android.policy_phone
 PRODUCT_BRAND := Wolder
 
-BUILD_FINGERPRINT := DOOGEE/full_hct6580_weg_c_m/hct6580_weg_c_m:6.0/MRA58K/1472705112:user/test-keys
-PRIVATE_BUILD_DESC := "full_hct6580_weg_c_m-user" "6.0" "MRA58K" "1472705112" "test-keys"
+BUILD_FINGERPRINT := Wolder/full_aeon6580_we_m/aeon6580_we_m:6.0/MRA58K/1466685788:user/dev-keys
+PRIVATE_BUILD_DESC := "full_aeon6580_we_m-user 6.0 MRA58K 1466685788 dev-keys"
 TARGET_OTA_ASSERT_DEVICE := Wiam24
 PRODUCT_DEFAULT_LOCALE := en_US
 
