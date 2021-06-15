@@ -125,4 +125,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
      ro.lmk.kill_heaviest_task=false
 
 # wiam24 prebuilds
-include vendor/wolder/wiam24/prebuilds.mk
+include device/wolder/wiam24/prebuilds.mk
